@@ -1,0 +1,15 @@
+BEGIN wordWar
+	Welcome screen
+	WHILE continue equals 1
+		Get the difficulty the user wants
+		WHILE their input insn't valid
+			Get the difficulty the user wants
+		END WHILE
+		Call the method to input the words
+		Call the method that removes the like letters and scores
+		Prompt the user to see if they want to continue
+		IF the user chooses not to cont = 0
+			cont = 0
+		END IF
+	END WHILE
+END wordWar
